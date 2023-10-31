@@ -22,12 +22,13 @@ body{
 #header{
  width: 100%;
  height: 100vh;
- background-image: url(images/tbtg.png);
+ background-image: url(images/tttbbg\ \(2\).png);
 
 
 }
 .container{
 padding: 10px 10%;
+font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 nav{
@@ -38,6 +39,7 @@ nav{
     position: sticky;
     top: 0px;
     z-index: 10000;
+
     
 }
 .logo{
@@ -49,6 +51,7 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 nav ul li a{
@@ -56,6 +59,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
     position: relative;
+    font-family: monospace;
 }
 nav ul li a::after{
     content: '';
@@ -74,6 +78,10 @@ nav ul li a:hover::after{
     color: white;
     margin-top: 20%;
     font-size: 30px;
+}
+.header-text p{
+    color: #ababab;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header-text p span{
@@ -98,7 +106,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: #fff;
     background-color: red;
-    transition: background 0.5s;
+    transition: background 0.1s;
     font-size: 20px;
 }
 .botn:hover{
@@ -374,8 +382,8 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/ttgg.png);
-        background-position: 20%;
+        background-image: url(images/bbgggg\ \(4\).png);
+        background-position: 18.5%;
         
     }
 
@@ -389,7 +397,7 @@ nav .fas{
     
     }
     .header-text p{
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
         
         
